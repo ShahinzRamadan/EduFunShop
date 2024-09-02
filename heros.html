@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heros page</title>
+    <link rel="stylesheet" href="style.css">
+    <!--To get Poppins font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+   
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <div class="container top-nav" id="tohero">
+            <a href="#logo"><img src="images/1x/logo vertical.png" alt="logo"></a><!--//////////-->
+            <!--form to enable searching-->
+            <form action="" class="search">
+                <input type="search" placeholder="Search for products... ">
+                <button type="submit">Search</button>
+            </form>
+            <div class="cart_header">
+                <div onclick="openCart()" class="icon_cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="count_item">0</span>
+                </div>
+                <div class="total_price">
+                    <p>My Cart:</p>
+                    <p class="price_cart_Header">$0</p>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="links container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="allproducts.html">All Products</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="#footerhero">Contact</a></li>
+                    <li class="active"><a href="heros.html">✨our heros✨</a></li>
+                </ul>
+                <div class="loging_sighnup">
+                    <a href="#">Login <i class="fa-solid fa-right-to-bracket"></i></a>
+                    <a href="#">Sign up <i class="fa-solid fa-user-plus"></i></a>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- title section -->
+     <div class="top_page">
+        <div class="container">
+            <h1>عزيزي محمد إبراهيم</h1>
+            <p>
+                نحن نعلم أن المثابرة في مواجهة التحديات هي من صفات الرجال الأقوياء، وأن تحقيق إنجازات ذاتية هو أمر رائع. لكن عندما يكون هذا الإنجاز من أجل تقديم أفضل ما لديك لعائلتك، لكي تراهم يعيشون في سعادة ورضا، فإن هذا ليس بالأمر السهل. ومع ذلك، فأنك قادر على تحقيق ذلك.
+
+تذكر دائمًا أن اهتمامك بعائلتك ودراستك وتحدياتك الشخصية سيعود عليك بالخير، وسيكون له أثر إيجابي على كل جانب من جوانب حياتك. استمر في المضي قدمًا، لأن النجاح الحقيقي يكمن في المثابرة والإصرار.
+
+ .شكراً لك يا صديقي، على ما تقدمه من جهد وعطاء 
+<br>
+
+،تحياتي iti summer G2"
+<br>
+
+
+ .أتمنى أن تكون هذه الرسالة قد نقلت الشعور بالتحفيز والمثابرة بشكل جيد  
+            </p>
+        </div>
+     </div>
+
+   
+    <!-- cart section -->
+    <div class="cart">
+        <div class="top_cart">
+            <h3>My Cart <span>0 Items in cart</span></h3>
+            <span onclick="closeCart()" class="close_cart"><i class="fa-regular fa-circle-xmark"></i></span>
+        </div>
+
+
+        <div class="items_in_cart">
+            <div class="item_cart">
+                <img src="images/photo_2024-08-28_22-46-29.jpg" alt="scisors">
+                <div class="content">
+                    <h4>Lovely pair of blue scisors, safe for child use</h4>
+                    <p class="price_cart">$20</p>
+                </div>
+                <button class="delete_item">
+                    <i class="fa-solid fa-trash-can"></i>
+                </button>
+            </div>
+            <div class="item_cart">
+                <img src="images/photo_2024-08-28_22-47-05.jpg" alt="3bottels">
+                <div class="content">
+                    <h4>Lovely set of black bottles, safe for child use</h4>
+                    <p class="price_cart">$130</p>
+                </div>
+                <button class="delete_item">
+                    <i class="fa-solid fa-trash-can"></i>
+                </button>
+            </div>
+            <div class="item_cart">
+                <img src="images/photo_2024-08-28_22-46-19.jpg" alt="pencil case">
+                <div class="content">
+                    <h4>Lovely pink pencil case that says "Meow"</h4>
+                    <p class="price_cart">$30</p>
+                </div>
+                <button class="delete_item">
+                    <i class="fa-solid fa-trash-can"></i>
+                </button>
+            </div>
+        </div>
+        <div class="bottom_cart">
+            <div class="total">
+                <p>Cart Subtotal</p>
+                <p class="price_cart_total">$0</p>
+            </div>
+
+            <div class="button_cart">
+                <a href="#" class="btn_cart">Proceed to checkout</a>
+                <button class="btn_cart_trans_bg">Show more</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- back to top bar -->
+    <div class="back_to_top">
+        <p><a href="#tohero">back to top</a></p>
+     </div>
+
+
+     <!-- footer section -->
+      <footer id="footerhero">
+        <div class="container">
+            <div class="big_row">
+                <img src="images/1x/logo vertical.png">
+                <div class="hotline">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="text">
+                        <h5>Hotline Free 24/24:</h5>
+                        <h6>(+100) 123 456 7890</h6>
+                    </div>
+                </div>
+                <p>Feel free to reach out to us whenever you need any help or encounter any problem</p>
+
+            </div>
+
+            <div class="row">
+                <h4>FAQs & Help</h4>
+
+                <div class="links">
+                    <a href="">F.A.Q.'S</a>
+                    <a href="">Ordering Tracking</a>
+                    <a href="">Contacts</a>
+                    <a href="">Events</a>
+                    <a href="">Help Center</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <h4>Shipping & Delivery</h4>
+
+                <div class="links">
+                    <a href="">Delivery Information</a>
+                    <a href="">Discount</a>
+                    <a href="">Payment & Shipping</a>
+                    <a href=""> Estimated Delivery Time</a>
+                    <a href="">Shipping Guide</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <h4>Information</h4>
+
+                <div class="links">
+                    <a href="">Popular</a>
+                    <a href="">Our Services</a>
+                    <a href="">Your Account</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms & Condition</a>
+                </div>
+            </div>
+
+        </div>
+      </footer>
+
+     
+      <script src="script.js"></script>
+</body>
+</html>
