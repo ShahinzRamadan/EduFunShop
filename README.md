@@ -1,2 +1,4 @@
 # EduFunShop
-EduFunShop is an e-commerce website that provide students with top-quality stationery items.
+## Description
+EduFunShop is an e-commerce website that provides students with top-quality stationery items at the most competitive prices.
+
